@@ -1,0 +1,57 @@
+전처리기
+
+int main(void) 무치형 
+
+int year = 2022;
+
+int credits;
+creits = 15;   같은 자료형은 한줄에 써도된다. 값을 15로 초기화 아니면 garbage값이 들어감
+\(디렉토리 표시) 
+%d 10진수로 받겠다 \n newline 
+printf("%d년도\n", year);
+
+int(4bite) 
+254,1024, 030, 0xF3
+signed 음수, 0, 양수
+unsigned 0~양수
+부족하면 underflow 넘치면 overflow
+return 제어문
+
+초록물결 경고
+
+문자''
+문자열""
+
+int j = 100, k = 200;
+float result;
+result = j/k;
+'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+sizeof 크기보는 1=1byte
+상수
+literal constant
+이름없는 상수, 값만 가져다 씀
+ex: 문자상수(문자, 이스케이프)
+ 
+symbolic constant
+이름 있는 상수  
+
+서식지정자
+%f
+%15f
+%12.4f
+15칸 자리수 지정
+12칸 . 뒤 4글자 지정
+기본이 오른쪽 정렬
+-입력시 왼쪽부터 정렬
+
+시험 4가지 유형 
+
+main 하나만 우클릭 속성 빌드에서 제외
+
+
+
+
+
+
+eval 이 뭐야? 
+중간에 + 로 띄어쓰기 넣는 법
